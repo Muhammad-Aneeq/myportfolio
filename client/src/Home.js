@@ -96,6 +96,10 @@ const Wrapper = styled.section`
       font-weight: 700;
       text-align: center;
       padding: 0 10%;
+    },
+    h3{
+      text-align: center;
+      font-size: 18px;
     }
     figure {
       text-align: center;

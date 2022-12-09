@@ -208,6 +208,7 @@ const Wrapper = styled.section`
   .sign-up-image {
     order: 1;
     margin: auto;
+    display:none
   }
   .mobile-show {
     display: flex;
