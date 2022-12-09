@@ -126,11 +126,15 @@ const Signup = () => {
 };
 
 const Wrapper = styled.section`
+html{
+  font-size: 50%;
+}
   .container {
     max-width: 120rem;
     margin: 5% auto;
     padding: 0 15%;
     margin-bottom: 1%;
+    
   }
 
   .grid {
@@ -199,21 +203,21 @@ const Wrapper = styled.section`
       padding: 5% 10%;
     }
   }
+  
   .signup-form {
     order: 2;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
   .sign-up-image {
     order: 1;
     margin: auto;
-    display:none
   }
   .mobile-show {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   .desktop-show {
     display: none;
